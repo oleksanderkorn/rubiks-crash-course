@@ -4,7 +4,7 @@
   "scripts": {
     "build": "slidev build --download",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --output getting-started-with-rubiks-cube"
   },
   "dependencies": {
     "@mrdrogdrog/optional": "^1.2.1",
