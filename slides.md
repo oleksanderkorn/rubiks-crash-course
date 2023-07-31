@@ -1,5 +1,6 @@
 ---
 theme: ./slidev-theme-xebia
+download: 'https://raw.githubusercontent.com/oleksanderkorn/rubiks-crash-course/main/getting-started-with-rubiks-cube.pdf'
 ---
 
 # Getting started with Rubik's Cube
