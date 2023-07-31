@@ -1,0 +1,46 @@
+{
+  "name": "slidev-theme-xebia",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.2"
+  },
+  "description": "Xebia theme for Slidev",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xebia/presentation-templates"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "slidev": {
+    "defaults": {
+      "colorSchema": "light",
+      "highlighter": "all",
+      "transition": "fade",
+      "titleTemplate": "%s - Xebia",
+      "fonts": {
+        "mono": "Monaco",
+        "sans": "Proxima Nova",
+        "serif": "Roboto Slab"
+      },
+      "favicon": "https://xebia.com/wp-content/themes/xebia-theme/images/favicon.png"
+    }
+  },
+  "homepage": "https://xebia.com",
+  "bugs": "https://github.com/xebia/presentation-templates",
+  "dependencies": {
+    "@slidev/types": "^0.42.5",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "prism-themes": "^1.9.0",
+    "theme-vitesse": "^0.7.2"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.42.5"
+  }
+}

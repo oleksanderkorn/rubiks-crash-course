@@ -1,0 +1,19 @@
+{
+  "name": "rubics-crash-course",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@mrdrogdrog/optional": "^1.2.1",
+    "@slidev/cli": "^0.42.5",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "prism-themes": "^1.9.0"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.53"
+  }
+}
