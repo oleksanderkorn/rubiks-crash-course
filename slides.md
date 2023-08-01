@@ -212,6 +212,7 @@ th {
 
 ---
 transition: fade-out
+layout: center
 ---
 
 # White Cross 
@@ -229,6 +230,15 @@ Solve the white cross preserving the order of faces. The order is fixed: Green <
   <img src="/white_cross_after.png">
 </div>
 
+### Examples:
+
+<div class="examples">
+  <img src="/white_cross_ex1.png">
+  <mdi-mixer/>
+  <img src="/white_cross_ex2.png">
+</div>
+
+
 <style>
 h1 {
   /* text-align: center; */
@@ -240,18 +250,14 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-p {
-  /* text-align: center; */
-}
-
-div.images {
+div.images, div.examples {
   display: flex;
   margin: auto;
   justify-content: center;
   align-items: center;
 }
 img {
-  height: 240px;
+  height: 110px;
 }
 </style>
 
