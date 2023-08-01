@@ -24,8 +24,8 @@ Brief history and background of the Rubik's Cube
 - 💰 It has become one of the most iconic and best-selling puzzles of all time
 - The cube consists of **54 colorful stickers** on its six faces, with each face having nine smaller squares (3x3 grid)
 - The objective is to twist and turn the cube's layers until each face displays a single color
-- There are over **43 quintillion possible** combinations, making it a complex and challenging puzzle to solve
 - **6 center pieces** are fixed and not moving at all, everything is moving around them
+- There are over **43 quintillion possible** combinations, making it a complex and challenging puzzle to solve
 
 <br>
 
@@ -44,6 +44,33 @@ h1 {
 <!--
 
 -->
+
+---
+transition: fade-out
+---
+
+# 43 Quintillion?!
+
+<img src="/image1.png">
+<img src="/image2.png">
+
+<style>
+  h1 {
+    text-align: center;
+    background-color: #2B90B6;
+    background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  img {
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 1rem;
+  }
+</style>
 
 ---
 transition: fade-out
@@ -823,4 +850,4 @@ class: text-center
 
 # Learn More
 
-[jPerm.net 3x3 website](https://jperm.net/3x3) · [TPS Cube Timer ](https://tpscube.xyz/) · [jPerm YT Tutorial](https://youtu.be/7Ron6MN45LY)
+[jPerm.net 3x3 website](https://jperm.net/3x3) · [CS Cube Timer ](https://cstimer.net/) · [TPS Cube Timer ](https://tpscube.xyz/) · [jPerm Youtube Tutorial](https://youtu.be/7Ron6MN45LY)
